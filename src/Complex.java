@@ -64,6 +64,13 @@ public class Complex {
         }
         return false;
     }
+    
+    public void printMat(){
+        int g;
+        g = -this.image;
+        System.out.println(this.real+" "+g);
+        System.out.println(this.image+" "+this.real);
+    }
 
     @Override
     public String toString() {

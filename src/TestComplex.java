@@ -27,6 +27,8 @@ public class TestComplex {
                
             
         }
+            AA[0].printMat();
+            AA[1].printMat();
             System.out.println(AA[0].Add(AA[1]));
             System.out.println(AA[0].Sup(AA[1]));
             System.out.println(AA[0].Mul(AA[1]));
